@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.navbar-nav a{
+  margin:1em;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Tel input custom classes begin*/
+.PhoneInput{
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.PhoneInputInput{
+  border: 0;
+  outline:0;
+}
+/* Tel input custom classes end*/
+
+/* customization params begin*/
+.testHead1{
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  color: #fff;
+}
+
+.testHead2{
+  margin:1em;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-nav a:hover {
+  color: #c5ff68!important;
+}
+
+#listDiv form,#listDiv select {
+  display:none;
+}
+
+.dataTables_filter, .dataTables_info { display: none; }
+/* customization params end */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
